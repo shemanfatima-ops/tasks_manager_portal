@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management</title>
+</head>
+<body>
+
+    <h1>Project Management</h1>
+
+    <h2>Create New Project</h2>
+
+    <form>
+        <label>Project Name:</label><br>
+        <input type="text" placeholder="Enter project name" required><br><br>
+
+        <label>Description:</label><br>
+        <textarea placeholder="Enter project description"></textarea><br><br>
+
+        <label>Start Date:</label><br>
+        <input type="date"><br><br>
+
+        <label>End Date:</label><br>
+        <input type="date"><br><br>
+
+        <label>Status:</label><br>
+        <select>
+            <option>Not Started</option>
+            <option>In Progress</option>
+            <option>Completed</option>
+        </select><br><br>
+
+        <button type="submit">Create Project</button>
+    </form>
+
+    <hr>
+
+    <h2>Projects</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+
+        <tr>
+            <td>Task Management Portal</td>
+            <td>Manage projects and tasks</td>
+            <td>2026-10-08</td>
+            <td>2026-11-08</td>
+            <td>In Progress</td>
+            <td>
+                <button>Edit</button>
+                <button>Delete</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Student Management System</td>
+            <td>Manage student information</td>
+            <td>2026-10-10</td>
+            <td>2026-11-20</td>
+            <td>Not Started</td>
+            <td>
+                <button>Edit</button>
+                <button>Delete</button>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
